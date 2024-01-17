@@ -1,7 +1,6 @@
 Attribute VB_Name = "Module1"
 Option Explicit
 
-
 Sub select‹å‰ğÍ()
     Dim selectPhrase As String
     selectPhrase = Sheet1.Range("A1")

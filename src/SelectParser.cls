@@ -9,7 +9,6 @@ Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
 
-
 Public Function GetParsedPhrases(selectPhrase As String) As Object
     Dim columnPhrases As Collection
     Set columnPhrases = DivideSelectPhraseToColumnPhrases(selectPhrase)
